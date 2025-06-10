@@ -31,6 +31,10 @@ test.only('TestLogin', async ({ page }) => {
      console.log (await page.locator('[class="card-body"]').nth(1).textContent());
 
 
+
+     
+
+
     await page.pause();
 
 })
